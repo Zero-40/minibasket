@@ -1,5 +1,9 @@
 import React, {useState} from 'react';
 import Carousel from 'react-bootstrap/Carousel'
+import sv1 from './static-assets/1.jpeg';
+import sv2 from './static-assets/2.jpeg';
+import sv3 from './static-assets/3.jpeg';
+
 function Slider() {
     const [index, setIndex] = useState(0);
   
@@ -15,7 +19,7 @@ function Slider() {
             className="d-block w-100"
             width="700"
             height="700"
-            src="1.jpeg"
+            src={sv1}
             alt="First slide"
           />
           <Carousel.Caption>
@@ -27,7 +31,7 @@ function Slider() {
             className="d-block w-100"
             width="700"
             height="700"
-            src="2.jpeg"
+            src={sv2}
             alt="Second slide"
           />
   
@@ -40,7 +44,7 @@ function Slider() {
             className="d-block w-100"
             width="700"
             height="700"
-            src="3.jpeg"
+            src={sv3}
             alt="Third slide"
           />
   

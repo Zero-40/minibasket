@@ -3,6 +3,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import CardGroup from 'react-bootstrap/CardGroup';
 import Card from 'react-bootstrap/Card';
 import './Products.css';
+import s1 from './static-assets/WhatsApp Image 2021-10-21 at 8.24.48 PM.jpeg';
+import s2 from './static-assets/WhatsApp Image 2021-10-21 at 8.27.28 PM.jpeg';
+import s3 from './static-assets/WhatsApp Image 2021-10-21 at 8.31.00 PM.jpeg';
+import s4 from './static-assets/WhatsApp Image 2021-10-21 at 8.34.20 PM.jpeg';
+import s5 from './static-assets/wp4668613.jpg';
+import s6 from './static-assets/WMgdyje.jpg';
 class Snacks extends React.Component {
   render() {
     return (
@@ -18,7 +24,7 @@ class Snacks extends React.Component {
       <Card.Title >LAYS</Card.Title>
       
     </Card.Body>
-    <Card.Img variant="top" width ="280" height = "280" src="WhatsApp Image 2021-10-21 at 8.24.48 PM.jpeg"  />
+    <Card.Img variant="top" width ="280" height = "280" src={s1}  />
     <Card.Footer>
       <small className="text-muted">Rs30</small><br></br>
       <div className="CartContainer">
@@ -41,7 +47,7 @@ class Snacks extends React.Component {
       <Card.Title>DARK FANTASY</Card.Title>
       
     </Card.Body>
-    <Card.Img variant="top" width ="280" height = "280" src="WhatsApp Image 2021-10-21 at 8.27.28 PM.jpeg" />
+    <Card.Img variant="top" width ="280" height = "280" src={s2} />
     <Card.Footer>
       <small className="text-muted">Rs30</small><br></br>
       <div className="CartContainer">
@@ -62,7 +68,7 @@ class Snacks extends React.Component {
       <Card.Title>KITKAT</Card.Title>
       
     </Card.Body>
-    <Card.Img variant="top" width ="280" height = "280" src="WhatsApp Image 2021-10-21 at 8.31.00 PM.jpeg" />
+    <Card.Img variant="top" width ="280" height = "280" src={s3} />
     <Card.Footer>
       <small className="text-muted">Rs25</small><br></br>
       <div className="CartContainer">
@@ -85,7 +91,7 @@ class Snacks extends React.Component {
       <Card.Title>CADBURY</Card.Title>
       
     </Card.Body>
-    <Card.Img variant="top" width ="280" height = "280" src="WhatsApp Image 2021-10-21 at 8.34.20 PM.jpeg" />
+    <Card.Img variant="top" width ="280" height = "280" src={s4} />
     <Card.Footer>
       <small className="text-muted">Rs80</small><br></br>
       <div className="CartContainer">
@@ -107,7 +113,7 @@ class Snacks extends React.Component {
       <Card.Title>OATS</Card.Title>
       
     </Card.Body>
-    <Card.Img variant="top" width ="280" height = "280" src="wp4668613.jpg" />
+    <Card.Img variant="top" width ="280" height = "280" src={s5}/>
     <Card.Footer>
       <small className="text-muted">Rs40</small><br></br>
       <div className="CartContainer">
@@ -128,7 +134,7 @@ class Snacks extends React.Component {
       <Card.Title>COCO-COLA</Card.Title>
       
     </Card.Body>
-    <Card.Img variant="top" width ="280" height = "280" src="WMgdyje.jpg" />
+    <Card.Img variant="top" width ="280" height = "280" src={s6} />
     <Card.Footer>
       <small className="text-muted">Rs30</small><br></br>
       <div className="CartContainer">

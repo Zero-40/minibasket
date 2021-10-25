@@ -3,6 +3,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import CardGroup from 'react-bootstrap/CardGroup';
 import Card from 'react-bootstrap/Card';
 import './Products.css';
+import b1 from './static-assets/istockphoto-1191964587-170667a.jpg';
+import b2 from './static-assets/photo-1519735777090-ec97162dc266.jpg';
+import b3 from './static-assets/photo-1601049676869-702ea24cfd58.jpg';
+import b4 from './static-assets/istockphoto-1221259449-170667a.jpg';
+import b5 from './static-assets/fogg-Extreme-Dynamic.jpg';
+import b6 from './static-assets/photo-1612705166160-97d3b2e8e212.jpg';
+
 class Beauty extends React.Component {
   render() {
     return (
@@ -18,7 +25,7 @@ class Beauty extends React.Component {
       <Card.Title >COCONUT OIL</Card.Title>
       
     </Card.Body>
-    <Card.Img variant="top" width ="280" height = "280" src="istockphoto-1191964587-170667a.jpg"  />
+    <Card.Img variant="top" width ="280" height = "280" src={b1}  />
     <Card.Footer>
       <small className="text-muted">RS 50</small><br></br>
       <div className="CartContainer">
@@ -41,7 +48,7 @@ class Beauty extends React.Component {
       <Card.Title>SHAMPOO</Card.Title>
       
     </Card.Body>
-    <Card.Img variant="top" width ="280" height = "280" src="photo-1519735777090-ec97162dc266.jpg" />
+    <Card.Img variant="top" width ="280" height = "280" src={b2} />
     <Card.Footer>
       <small className="text-muted">Rs80</small><br></br>
       <div className="CartContainer">
@@ -62,7 +69,7 @@ class Beauty extends React.Component {
       <Card.Title>MOISTURIZER</Card.Title>
       
     </Card.Body>
-    <Card.Img variant="top" width ="280" height = "280" src="photo-1601049676869-702ea24cfd58.jpg" />
+    <Card.Img variant="top" width ="280" height = "280" src={b3} />
     <Card.Footer>
       <small className="text-muted">Rs60</small><br></br>
       <div className="CartContainer">
@@ -85,7 +92,7 @@ class Beauty extends React.Component {
       <Card.Title>SANITIZER</Card.Title>
       
     </Card.Body>
-    <Card.Img variant="top" width ="280" height = "280" src="istockphoto-1221259449-170667a.jpg" />
+    <Card.Img variant="top" width ="280" height = "280" src={b4} />
     <Card.Footer>
       <small className="text-muted">RS50</small><br></br>
       <div className="CartContainer">
@@ -107,7 +114,7 @@ class Beauty extends React.Component {
       <Card.Title>FOGG</Card.Title>
       
     </Card.Body>
-    <Card.Img variant="top" width ="280" height = "280" src="fogg-Extreme-Dynamic.jpg" />
+    <Card.Img variant="top" width ="280" height = "280" src={b5} />
     <Card.Footer>
       <small className="text-muted">RS140</small><br></br>
       <div className="CartContainer">
@@ -128,7 +135,7 @@ class Beauty extends React.Component {
       <Card.Title>TOOTH PASTE</Card.Title>
       
     </Card.Body>
-    <Card.Img id = "demo" variant="top" width ="280" height = "280" src="photo-1612705166160-97d3b2e8e212.jpg" />
+    <Card.Img id = "demo" variant="top" width ="280" height = "280" src={b6} />
     <Card.Footer>
       <small className="text-muted">RS40</small><br></br>
       <div className="CartContainer">

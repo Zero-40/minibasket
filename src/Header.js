@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from "react-bootstrap/Navbar";
 import Nav from 'react-bootstrap/Nav'
 import './Header.css';
-
+import logo from './static-assets/logo7.jpeg';
 
 import { NavLink,Form,FormControl } from "react-bootstrap";
 class Header extends React.Component {
@@ -14,7 +14,7 @@ class Header extends React.Component {
         <Navbar bg="dark" variant="dark" expand="lg" class="navbar" className="navbarcss" id='Colorid' >
         <Navbar.Brand href="#" >{''}{''}</Navbar.Brand>
 
-  <Navbar.Brand href="/" id = "loginbtn1" ><img src="logo7.jpeg" width="100" height="100" /></Navbar.Brand>
+  <Navbar.Brand href="/" id = "loginbtn1" ><img src={logo} width="100" height="100" /></Navbar.Brand>
   <Navbar.Toggle aria-controls="navbarScroll" />
   <Navbar.Collapse id="navbarScroll">
     <Nav

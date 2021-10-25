@@ -3,6 +3,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import CardGroup from 'react-bootstrap/CardGroup';
 import Card from 'react-bootstrap/Card';
 import './Products.css';
+import bk1 from './static-assets/photo-1598373182308-3270495d2f58.jpg';
+import bk2 from './static-assets/photo-1592811773343-9abf0b1a6920.jpg';
+import bk3 from './static-assets/istockphoto-1243439079-170667a.jpg';
+import bk4 from './static-assets/WhatsApp Image 2021-10-21 at 7.42.24 PM.jpeg';
+import bk5 from './static-assets/WhatsApp Image 2021-10-21 at 7.44.36 PM.jpeg';
+import bk6 from './static-assets/download.jpeg';
+
 
 class Bakery extends React.Component {
  
@@ -20,7 +27,7 @@ class Bakery extends React.Component {
       <Card.Title >BREAD</Card.Title>
       
     </Card.Body>
-    <Card.Img variant="top" width ="280" height = "280"  src="photo-1598373182308-3270495d2f58.jpg"  />
+    <Card.Img variant="top" width ="280" height = "280"  src={bk1}  />
     <Card.Footer>
       <small className="text-muted">RS60</small><br></br>
       <div className="CartContainer">
@@ -43,7 +50,7 @@ class Bakery extends React.Component {
       <Card.Title>BUN</Card.Title>
       
     </Card.Body>
-    <Card.Img variant="top" width ="280" height = "280" src="photo-1592811773343-9abf0b1a6920.jpg" />
+    <Card.Img variant="top" width ="280" height = "280" src={bk2} />
     <Card.Footer>
       <small className="text-muted">RS30</small><br></br>
       <div className="CartContainer">
@@ -64,7 +71,7 @@ class Bakery extends React.Component {
       <Card.Title>MILK</Card.Title>
       
     </Card.Body>
-    <Card.Img variant="top" width ="280" height = "280" src="istockphoto-1243439079-170667a.jpg" />
+    <Card.Img variant="top" width ="280" height = "280" src={bk3} />
     <Card.Footer>
       <small className="text-muted">RS30</small><br></br>
       <div className="CartContainer">
@@ -87,7 +94,7 @@ class Bakery extends React.Component {
       <Card.Title>CURD</Card.Title>
       
     </Card.Body>
-    <Card.Img variant="top" width ="280" height = "280" src="WhatsApp Image 2021-10-21 at 7.42.24 PM.jpeg" />
+    <Card.Img variant="top" width ="280" height = "280" src={bk4} />
     <Card.Footer>
       <small className="text-muted">RS25</small><br></br>
       <div className="CartContainer">
@@ -109,7 +116,7 @@ class Bakery extends React.Component {
       <Card.Title>CHEESE</Card.Title>
       
     </Card.Body>
-    <Card.Img variant="top" width ="280" height = "280" src="WhatsApp Image 2021-10-21 at 7.44.36 PM.jpeg" />
+    <Card.Img variant="top" width ="280" height = "280" src={bk5} />
     <Card.Footer>
       <small className="text-muted">RS150</small><br></br>
       <div className="CartContainer">
@@ -130,7 +137,7 @@ class Bakery extends React.Component {
       <Card.Title>PANEER</Card.Title>
       
     </Card.Body>
-    <Card.Img variant="top" width ="280" height = "280" src="download.jpeg" />
+    <Card.Img variant="top" width ="280" height = "280" src={bk6} />
     <Card.Footer>
       <small className="text-muted">RS160</small><br></br>
       <div className="CartContainer">
