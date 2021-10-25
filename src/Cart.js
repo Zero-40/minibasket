@@ -1,6 +1,8 @@
 import React from "react";
 import './Cart.css'
 import {Link} from 'react-router-dom'
+import ca1 from './static-assets/photo-1534336810865-0beae4c81278.jpeg';
+import ca2 from './static-assets/istockphoto-1062844026-170667a.jpg';
 function Cart(){
 return(
     <div class="CartContainer">
@@ -11,7 +13,7 @@ return(
 
    	   <div class="Cart-Items">
    	   	  <div class="image-box">
-   	   	  	<img height= "120px"  src="photo-1534336810865-0beae4c81278.jpeg"  />
+   	   	  	<img height= "120px"  src={ca1}  />
    	   	  </div>
    	   	  <div class="about">
    	   	  	<h1 class="title">Apple Juice</h1><br></br>
@@ -32,7 +34,7 @@ return(
 
    	   <div class="Cart-Items pad">
    	   	  <div class="image-box">
-   	   	  	<img height="120px" src="istockphoto-1062844026-170667a.jpg" style={{  }} />
+   	   	  	<img height="120px" src={ca2} style={{  }} />
    	   	  </div>
    	   	  <div class="about">
    	   	  	<h1 class="title">Grapes Juice</h1><br></br>
