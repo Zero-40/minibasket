@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/minibasket/static/css/main.44530123.chunk.css",
+    "main.js": "/minibasket/static/js/main.0e4294d0.chunk.js",
+    "main.js.map": "/minibasket/static/js/main.0e4294d0.chunk.js.map",
+    "reactPlayerPreview.js": "/minibasket/static/js/reactPlayerPreview.64ea782b.chunk.js",
+    "reactPlayerPreview.js.map": "/minibasket/static/js/reactPlayerPreview.64ea782b.chunk.js.map",
+    "reactPlayerYouTube.js": "/minibasket/static/js/reactPlayerYouTube.167a1d70.chunk.js",
+    "reactPlayerYouTube.js.map": "/minibasket/static/js/reactPlayerYouTube.167a1d70.chunk.js.map",
+    "runtime-main.js": "/minibasket/static/js/runtime-main.8fe4231c.js",
+    "runtime-main.js.map": "/minibasket/static/js/runtime-main.8fe4231c.js.map",
+    "static/css/4.2c38657b.chunk.css": "/minibasket/static/css/4.2c38657b.chunk.css",
+    "static/js/4.bc2341f5.chunk.js": "/minibasket/static/js/4.bc2341f5.chunk.js",
+    "static/js/4.bc2341f5.chunk.js.map": "/minibasket/static/js/4.bc2341f5.chunk.js.map",
+    "static/js/5.3ccebd4e.chunk.js": "/minibasket/static/js/5.3ccebd4e.chunk.js",
+    "static/js/5.3ccebd4e.chunk.js.map": "/minibasket/static/js/5.3ccebd4e.chunk.js.map",
+    "index.html": "/minibasket/index.html",
+    "static/css/4.2c38657b.chunk.css.map": "/minibasket/static/css/4.2c38657b.chunk.css.map",
+    "static/css/main.44530123.chunk.css.map": "/minibasket/static/css/main.44530123.chunk.css.map",
+    "static/js/4.bc2341f5.chunk.js.LICENSE.txt": "/minibasket/static/js/4.bc2341f5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8fe4231c.js",
+    "static/css/4.2c38657b.chunk.css",
+    "static/js/4.bc2341f5.chunk.js",
+    "static/css/main.44530123.chunk.css",
+    "static/js/main.0e4294d0.chunk.js"
+  ]
+}
