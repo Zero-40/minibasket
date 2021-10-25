@@ -1,0 +1,63 @@
+div.Mainbody {
+    text-align: center;
+    background-color: white;
+    
+  }
+  .box {
+    animation-name: bounce;
+    animation-duration: 4s; /* or: Xms */
+    animation-iteration-count: 10;
+    animation-direction: alternate; /* or: normal */
+    animation-timing-function: ease-out; /* or: ease, ease-in, ease-in-out, linear, cubic-bezier(x1, y1, x2, y2) */
+    animation-fill-mode: forwards; /* or: backwards, both, none */
+    animation-delay: 2s; /* or: Xms */
+   }
+  #Mainid{
+    padding-right: 30;
+    padding-left: 30;
+  }
+  .myButton {
+    color: rgb(255, 255, 255); font-size: 16px; line-height: 16px; padding: 6px; border-radius: 10px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%);  border: 2px solid rgb(28, 110, 164); display: inline-block;}
+.myButton:hover {
+background: #1C6EA4; }
+.myButton:active {
+background: #144E75; }
+    
+
+   
+      
+      .myButton1 {
+        color: rgb(255, 255, 255); font-size: 13px; line-height: 13px; padding: 10px; border-radius: 5px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid rgb(28, 110, 164); display: inline-block;}
+        .myButton:hover {
+        background: #1C6EA4; }
+        .myButton:active {
+        background: #144E75; }
+        .counter1{
+          padding-left: 20;
+          width: 15%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+        .CartContainer{
+          padding-top: 20px;
+          width: 100%;
+          height: 85%;
+          background-color: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0px 10px 20px #1687d933;
+        }
+        .btn7{
+          
+          color: rgb(255, 255, 255); font-size: 16px; line-height: 16px; padding: 6px; border-radius: 10px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid rgb(28, 110, 164); display: inline-block;}
+          .myButton:hover {
+          background: #1C6EA4; }
+          .myButton:active {
+          background: #144E75;
+          
+        }
+        .btn6{
+          padding-left: 150;
+          padding-bottom: 10;
+        }
+        

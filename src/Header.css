@@ -1,0 +1,33 @@
+#Colorid{
+    background-color: pink;
+    padding: 20 30 20;
+}
+.fa {
+    background-color: transparent;
+}
+
+.fa-search{
+    background-color: transparent;
+    color: white;
+}
+
+#searchbtn{
+    padding: 10;
+}
+#loginbtn{
+    padding: 15;
+    
+}
+#loginbtn1{
+    padding: 5;
+}
+#maintitle-title{
+    padding-bottom: 12;
+    padding-left: 475;
+    font-size: 50px ;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #349ceb, 0 0 30px #349ceb, 0 0 40px #349ceb, 0 0 55px #349ceb, 0 0 75px #349ceb
+    
+}
+.navbarcss{
+    background-color: black;
+}
