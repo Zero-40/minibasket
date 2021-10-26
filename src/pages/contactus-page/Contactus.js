@@ -6,7 +6,7 @@ function Contactus() {
         <div className='Contactus'>
             <div class="wrapper9">
     <h2 id='h21'>CONTACT US</h2>
-    <form action="" method="POST">
+    <form action="" >
       <div class="form-group">
         <label for="name">Full Name</label>
         <input type="text" name="Name" id="name" placeholder="First and Last" required minlength="3" maxlength="25" />

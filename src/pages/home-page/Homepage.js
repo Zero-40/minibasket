@@ -2,17 +2,20 @@ import React from "react";
 
 import Deals from "./Deals";
 import Products from './Products'
-import Slider from "./Slider";
+import Slider from "../../components/slider-component/Slider";
 import Timer from "./Timer"
 import App12 from './demo/App12';
 
 function Homepage() {
     return (
       <div className="App">
-       <Products/><br/><br/><br/>
-       <Deals/>
-       <Timer/>
+        <br/>
+        <Deals/>
+        <Timer/>
        <Slider/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+       <Products/><br/><br/><br/>
+       
+      
        <App12/>
        
        

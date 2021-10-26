@@ -3,11 +3,11 @@ import merge from 'deepmerge'
 import memoize from 'memoize-one'
 import isEqual from 'react-fast-compare'
 
-import { propTypes, defaultProps } from './props'
+import { propTypes, defaultProps } from '../../../props'
 import { omit } from './utils'
 import Player from './Player'
 
-const Preview = lazy(() => import(/* webpackChunkName: 'reactPlayerPreview' */'./Preview'))
+const Preview = lazy(() => import(/* webpackChunkName: 'reactPlayerPreview' */'../../../Preview'))
 
 const IS_BROWSER = typeof window !== 'undefined' && window.document
 const IS_GLOBAL = typeof global !== 'undefined' && global.window && global.window.document

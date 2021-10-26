@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Header from './Header'
-import Homepage from './Homepage'
+import Homepage from './pages/home-page/Homepage'
 import { Route, Switch} from 'react-router-dom'
 import Cleaning from "./Cleaning";
 import FruitsVegetables from "./FruitsVegetables";
@@ -11,7 +11,7 @@ import Bakery from "./Bakery";
 import Snacks from "./Snacks";
 import Login from './Login';
 import Cart from './Cart';
-import Payment from './Payment';
+import Payment from './components/payment-component/Payment';
 import Contactus from './Contactus';
 
 

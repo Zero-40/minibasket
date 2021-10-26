@@ -1,5 +1,5 @@
 
-import Timer1 from './Timer1';
+import Timer1 from '../../Timer1';
 import './Timer.css';
 function Timer() {
   return (

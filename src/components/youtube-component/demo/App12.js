@@ -9,7 +9,7 @@ import "./range.css";
 import "./App.css";
 
 
-import ReactPlayer from "../index12";
+import ReactPlayer from "../../../index12";
 
 
 class App12 extends Component {
